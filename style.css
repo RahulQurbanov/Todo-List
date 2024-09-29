@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #B07289;
+    min-height: 100vh;
+    padding: 55px 20px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.main {
+    width: 55%;
+    background-color: white;
+    border-radius: 10px;
+}
+.info {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.title, #priority {
+    display: flex;
+    flex-direction: column;
+}
+input, #priority {
+    width: 240px;
+    height: 40px;
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+}
+.btn {
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+    background-color: #E53170;
+    color: white;
+    border-radius: 10px;
+    align-self: flex-end;
+    border: 1px solid;
+    cursor: pointer;
+}
+p {
+    font-size: 1.5rem;
+}
+.todos {
+    margin: 20px;
+}
+.to {
+    display: flex;
+    flex-direction: column;
+}
+.todo {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+}
+.icon {
+    display: flex;
+    gap: 15px;
+    color: #F25F4C;
+    align-items: center;
+}
+#edit{
+    background-color: white;
+    border: none;
+    color:chocolate ;
+}
